@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let  arrayy = [23,13,34,56,99,101]
+        
+       /* for(let i=0; i<arrayy.length; i++){
+            console.log(arrayy[i]);
+            if(arrayy[i] ==56){
+                break;
+            }
+        }*/
+
+        /*for(let i=0; i<arrayy.length; i++){
+            if(arrayy[i] == 56){
+                continue;
+            }
+        console.log(arrayy[i]);
+        }*/
+        let i = 0;
+        while(i<arrayy.length){
+            console.log('while:' , arrayy[i]);
+            i++;
+        } /* la differenza è che do while prima legge quello che deve mandare a schermo
+        e poi legge la condizione*/
+        let k = 0;
+        do{
+            console.log('do while: ' , arrayy[k]);
+            k++;
+        } while(k<arrayy.length)
+
+    </script>
+</body><!-- i loop da usare è meglio il for -->
+</html>
